@@ -13,11 +13,11 @@
     <title>Bank</title>
   </head>
   <body>
-    <header id="header" class="header__navbar mb--bottom">
+    <header id="header" class="header__navbar">
       <div class="container">
-        <div class="row mg-top">
+        <div class="row">
           <div class="column mg-top desktop-view">
-            <div class="d-flex flex-space-between">
+            <div class="d-flex flex-between">
               <div class="nav__logo">
                 <img src="./assets/img/Nav-Section/Logo.svg" alt="" />
               </div>
@@ -76,7 +76,7 @@
               </div>
             </div>
             <div class="column column-xl-6 order-0">
-              <div>
+              <div class="img__utility">
                 <img
                   class="img__utility"
                   src="./assets/img/Section-1/Section-1-Main-Photo.svg"
@@ -94,19 +94,21 @@
         <div class="container">
           <div class="row">
             <div class="column">
-              <h5 class="h5__blue-color">Features</h5>
-              <h2>Features</h2>
-              <p>The sky was cloudless and of a deep dark blue.</p>
+              <div>
+                <h5 class="h5__blue-color mb--bottom">Features</h5>
+                <h2 class="pad--bottom">Features</h2>
+                <p class="pad--bottom">
+                  The sky was cloudless and of a deep dark blue.
+                </p>
+              </div>
             </div>
           </div>
           <div class="row">
             <div class="column column-xl-4">
               <div class="section-2__card">
-                <img
-                  class="img__utility"
-                  src="./assets/img/Section-2/card-image-1.svg"
-                  alt=""
-                />
+                <div class="d-flex flex-center">
+                  <img src="./assets/img/Section-2/card-image-1.svg" alt="" />
+                </div>
                 <h2>Secured</h2>
                 <p>
                   The sky was cloudless and of a deep dark blue spectacle
@@ -116,11 +118,9 @@
             </div>
             <div class="column column-xl-4">
               <div class="section-2__card">
-                <img
-                  class="img__utility"
-                  src="./assets/img/Section-2/card-image-2.svg"
-                  alt=""
-                />
+                <div class="d-flex flex-center">
+                  <img src="./assets/img/Section-2/card-image-2.svg" alt="" />
+                </div>
                 <h2>Faster</h2>
                 <p>
                   Cloudless and of a deep dark blue spectacle before us was
@@ -130,11 +130,9 @@
             </div>
             <div class="column column-xl-4">
               <div class="section-2__card">
-                <img
-                  class="img__utility"
-                  src="./assets/img/Section-2/card-image-3.svg"
-                  alt=""
-                />
+                <div class="d-flex flex-center">
+                  <img src="./assets/img/Section-2/card-image-3.svg" alt="" />
+                </div>
                 <h2>Global</h2>
                 <p>Deep dark blue spectacle before us was indeed sublime.</p>
               </div>
@@ -143,9 +141,11 @@
           <div class="row">
             <div class="column">
               <div class="text-align">
-                <h5 class="h5__blue-color">Services</h5>
-                <h2>Explore Services</h2>
-                <p>
+                <div class="pad--bottom">
+                  <h5 class="h5__blue-color">Services</h5>
+                </div>
+                <h2 class="pad--bottom">Explore Services</h2>
+                <p class="pad--bottom">
                   Financial institution licensed to receive deposits and make
                   loans.
                 </p>
@@ -222,97 +222,116 @@
     <!-- <section id="section-4"> -->
     <div class="wrapper-white">
       <section id="section-4">
-        <div class="container">
-          <div class="row">
-            <div class="column column-xl-6">
-              <h5 class="h5__blue-color mb--bottom">About</h5>
-              <h2 class="mb--bottom">We Help With Any Problem</h2>
-              <p class="mb--bottom">
-                There are several different kinds of banks including retail
-                banks, commercial or corporate banks.
-              </p>
-              <div class="row">
-                <div class="column column-xl-6">
-                  <div class="d-flex flex-direction">
-                    <img
-                      class="img__utility img__size"
-                      src="./assets/img/Section-4/Section-4-icon.svg"
-                      alt=""
-                    />
-                    <h5 class="h5--text-modifier">Management</h5>
-                    <img
-                      class="img__utility img__size"
-                      src="./assets/img/Section-4/Section-4-icon.svg"
-                      alt=""
-                    />
-                    <h5 class="h5--text-modifier">Exchange</h5>
+        <div class="bg--color-grey">
+          <div class="container">
+            <div class="row">
+              <div class="column column-xl-6">
+                <div>
+                  <h5 class="h5__blue-color mb--bottom">About</h5>
+                  <h2 class="mb--bottom">We Help With Any Problem</h2>
+                  <p class="mb--bottom">
+                    There are several different kinds of banks including retail
+                    banks, commercial or corporate banks.
+                  </p>
+                  <div class="d-flex gap--76">
+                    <ul>
+                      <li
+                        class="
+                          h5--text-modifier
+                          d-flex
+                          flex-align
+                          gap-10
+                          pad--bottom
+                        "
+                      >
+                        <img
+                          src="./assets/img/Section-4/Section-4-icon.svg"
+                          alt=""
+                        />Management
+                      </li>
+                      <li class="h5--text-modifier d-flex flex-align gap-10">
+                        <img
+                          src="./assets/img/Section-4/Section-4-icon.svg"
+                          alt=""
+                        />Deposit
+                      </li>
+                    </ul>
+                    <ul>
+                      <li
+                        class="
+                          h5--text-modifier
+                          d-flex
+                          flex-align
+                          gap-10
+                          pad--bottom
+                        "
+                      >
+                        <img
+                          src="./assets/img/Section-4/Section-4-icon.svg"
+                          alt=""
+                        />Exchange
+                      </li>
+                      <li class="h5--text-modifier d-flex flex-align gap-10">
+                        <img
+                          src="./assets/img/Section-4/Section-4-icon.svg"
+                          alt=""
+                        />Licensed
+                      </li>
+                    </ul>
                   </div>
-                </div>
-                <div class="column column-xl-6">
-                  <div class="d-flex mb--bottom flex-direction">
-                    <img
-                      class="img__utility img__size"
-                      src="./assets/img/Section-4/Section-4-icon.svg"
-                      alt=""
-                    />
-                    <h5 class="h5--text-modifier">Deposit</h5>
-                    <img
-                      class="img__utility img__size"
-                      src="./assets/img/Section-4/Section-4-icon.svg"
-                      alt=""
-                    />
-                    <h5 class="h5--text-modifier">Licensed</h5>
+                  <div class="margin-top-medium mb--bottom-medium">
+                    <a class="btn__transparent" href="#">Learn More</a>
                   </div>
                 </div>
               </div>
-              <div>
-                <a class="btn__transparent" href="#">Learn More</a>
-              </div>
-            </div>
 
-            <div class="column column-xl-6">
-              <img
-                class="img__utility"
-                src="./assets/img/Section-4/Section-4-Main-Image.svg"
-                alt=""
-              />
+              <div class="column column-xl-6">
+                <div>
+                  <img
+                    class="img__utility"
+                    src="./assets/img/Section-4/Section-4-Main-Image.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
       <!-- Section 5 -->
       <div class="wrapper-white">
         <section id="section-5">
           <div class="container">
             <div class="row">
               <div class="column column-xl-4">
-                <h4>
+                <h4 class="mg-top-large">
                   A bank is a financial institution licensed to receive deposits
                   and make loans.
                 </h4>
               </div>
               <div class="column column-xl-4">
-                <div class="d-flex">
-                  <img
-                    class="img__utility"
-                    src="./assets/img/Section-4/Section-4-Bank-icon.svg"
-                    alt=""
-                  />
-                  <div class="d-flex flex-direction">
+                <div class="d-flex flex-center">
+                  <div>
+                    <img
+                      src="./assets/img/Section-4/Section-4-Bank-icon.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
                     <h5>Business Activity</h5>
                     <h3>73%</h3>
                   </div>
                 </div>
               </div>
               <div class="column column-xl-4">
-                <div class="d-flex">
-                  <img
-                    class="img__utility"
-                    src="./assets/img/Section-4/Section-4-Transfer-icon.svg"
-                    alt=""
-                  />
-                  <div class="d-flex flex-direction">
+                <div class="d-flex flex-center">
+                  <div>
+                    <img
+                      src="./assets/img/Section-4/Section-4-Transfer-icon.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
                     <h5>Safeguarding</h5>
                     <h3>42+</h3>
                   </div>
@@ -341,46 +360,51 @@
           <div class="bg--color-pink">
             <div class="row">
               <div class="column">
-                <div class="d-flex">
-                  <h4>What do you mean by bank?</h4>
+                <div class="card--bg--color-white">
+                  <div class="d-flex flex-align flex-between mb--bottom">
+                    <h4>What do you mean by bank?</h4>
+                    <img
+                      src="./assets/img/Section-4/arrow-icon-up.svg"
+                      alt=""
+                    />
+                  </div>
+                  <p class="color__text--black">
+                    A bank is a financial institution licensed to receive
+                    deposits and make loans. Banks may also provide financial
+                    services such as wealth management, currency exchange, and
+                    safe deposit boxes. There are several different kinds of
+                    banks including retail banks, commercial or corporate banks,
+                    and investment banks.
+                  </p>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="d-flex flex-align flex-between spacing_utility">
+                  <h4>How many types of bank are there?</h4>
                   <img
-                    class="img__utility"
-                    src="./assets/img/Section-4/arrow-icon-up.svg"
+                    src="./assets/img/Section-4/arrow-icon-down.svg"
                     alt=""
                   />
                 </div>
-                <p>
-                  A bank is a financial institution licensed to receive deposits
-                  and make loans. Banks may also provide financial services such
-                  as wealth management, currency exchange, and safe deposit
-                  boxes. There are several different kinds of banks including
-                  retail banks, commercial or corporate banks, and investment
-                  banks.
-                </p>
               </div>
               <div class="column">
-                <h4>How many types of bank are there?</h4>
-                <img
-                  class="img__utility"
-                  src="./assets/img/Section-4/arrow-icon-down.svg"
-                  alt=""
-                />
+                <div class="d-flex d-flex flex-align">
+                  <h4>What are the two meanings of bank?</h4>
+                  <img
+                    src="./assets/img/Section-4/arrow-icon-down.svg"
+                    alt=""
+                  />
+                </div>
               </div>
               <div class="column">
-                <h4>What are the two meanings of bank?</h4>
-                <img
-                  class="img__utility"
-                  src="./assets/img/Section-4/arrow-icon-down.svg"
-                  alt=""
-                />
-              </div>
-              <div class="column">
-                <h4>How do banks work?</h4>
-                <img
-                  class="img__utility"
-                  src="./assets/img/Section-4/arrow-icon-down.svg"
-                  alt=""
-                />
+                <div class="d-flex d-flex flex-align">
+                  <h4>How do banks work?</h4>
+                  <img
+                    src="./assets/img/Section-4/arrow-icon-down.svg"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -392,43 +416,38 @@
           <div class="container">
             <div class="row">
               <div class="column">
-                <h5 class="h5__blue-color">Testimonials</h5>
-                <h2>People Stories</h2>
-                <p>
-                  The kinds of institutions that exist in the finance industry.
-                </p>
+                <div class="d-flex flex-center flex-direction">
+                  <h5 class="h5__blue-color mb--bottom">Testimonials</h5>
+                  <h2 class="mb--bottom">People Stories</h2>
+                  <p class="text-align mb--bottom">
+                    The kinds of institutions that exist in the finance
+                    industry.
+                  </p>
+                </div>
               </div>
             </div>
             <div class="row">
               <div class="column column-xl-4">
-                <img
-                  class="img__utility"
-                  src="./assets/img/Section-4/stars.svg"
-                  alt=""
-                />
-                <p>
-                  "A bank is a financial institution licensed to receive
-                  deposits and make loans."
-                </p>
-                <img
-                  class="img__utility"
-                  src="./assets/img/Section-4/photo-placeholder.svg"
-                  alt=""
-                />
-                <h4>Jordan Ntolo</h4>
+                <div class="flex">
+                  <img src="./assets/img/Section-4/stars.svg" alt="" />
+                  <p>
+                    "A bank is a financial institution licensed to receive
+                    deposits and make loans."
+                  </p>
+                  <img
+                    src="./assets/img/Section-4/photo-placeholder.svg"
+                    alt=""
+                  />
+                  <h4>Jordan Ntolo</h4>
+                </div>
               </div>
               <div class="column column-xl-4">
-                <img
-                  class="img__utility"
-                  src="./assets/img/Section-4/stars.svg"
-                  alt=""
-                />
+                <img src="./assets/img/Section-4/stars.svg" alt="" />
                 <p>
                   "Banks may also provide financial services such as wealth
                   management, currency exchange, and safe deposit boxes."
                 </p>
                 <img
-                  class="img__utility"
                   src="./assets/img/Section-4/photo-placeholder.svg"
                   alt=""
                 />

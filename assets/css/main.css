@@ -465,7 +465,7 @@ a {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -30px;
+  padding: 0 15px;
 }
 
 .row .row {
@@ -474,7 +474,7 @@ a {
 }
 
 .column {
-  padding: 0 23px;
+  padding: 0 15px;
   width: 100%;
   margin-top: 30px;
 }
@@ -1018,6 +1018,15 @@ p {
   width: 100%;
 }
 
+.card--bg--color-white {
+  background-color: #fff;
+  border-radius: 24px;
+  width: 100%;
+  padding: 29px 28px 39px 28px;
+  max-width: 770px;
+  margin: 0 auto;
+}
+
 .d-flex {
   display: flex;
 }
@@ -1031,15 +1040,15 @@ p {
   justify-content: center;
 }
 
-.flex-align-center {
+.flex-align {
   align-items: center;
 }
 
-.flex-space-between {
+.flex-between {
   justify-content: space-between;
 }
 
-.flex-space-evenly {
+.flex-evenly {
   justify-content: space-evenly;
 }
 
@@ -1048,14 +1057,16 @@ p {
 }
 
 .img__utility {
-  width: 100%;
   object-fit: cover;
-  display: inline-block;
+  width: 100%;
+}
+
+.image__card {
+  max-height: 192px;
 }
 
 .img__size {
-  max-width: 18px;
-  max-height: 18px;
+  max-width: 253px;
 }
 
 .social--icon {
@@ -1063,14 +1074,18 @@ p {
   border-bottom: 1px solid #f5f6fb;
 }
 
+.spacing_utility {
+  max-width: 675px;
+}
+
 .h5--text-modifier {
-  font: 16px;
+  font-size: 16px;
   line-height: 19px;
   letter-spacing: 1px;
 }
 
 .text-modifier {
-  font: 16px;
+  font-size: 16px;
   line-height: 16px;
   letter-spacing: 0px;
   font-weight: 400px;
@@ -1083,6 +1098,12 @@ p {
 
 .color__text--d-white {
   color: rgba(255, 255, 255, 0.5);
+}
+
+.color__text--black {
+  color: #33333380;
+  font-size: 16px;
+  line-height: 32px;
 }
 
 .p__width {
@@ -1109,6 +1130,10 @@ p {
   margin-top: 90px;
 }
 
+.mg-bot-large {
+  margin-bottom: 72px;
+}
+
 .mb--bottom {
   margin-bottom: 17px;
 }
@@ -1121,8 +1146,16 @@ p {
   margin-left: 20px;
 }
 
+.mg-right {
+  margin-right: 20px;
+}
+
 .margin-top {
   margin-top: 16px;
+}
+
+.margin-top-medium {
+  margin-top: 44px;
 }
 
 .pad--top-bot-large {
@@ -1131,5 +1164,25 @@ p {
 
 .pad-left {
   padding-left: 20px;
+}
+
+.pad-right {
+  padding-right: 20px;
+}
+
+.pad-left-right {
+  padding: 0 20px;
+}
+
+.pad--bottom {
+  padding-bottom: 20px;
+}
+
+.gap--76 {
+  gap: 76px;
+}
+
+.gap-10 {
+  gap: 10px;
 }
 /*# sourceMappingURL=main.css.map */

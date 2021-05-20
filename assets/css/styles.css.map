@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../../Mini Project - Bank - re-code/assets/css/styles.scss"
+        "styles.scss"
     ],
     "names": [],
     "file": "styles.css"
