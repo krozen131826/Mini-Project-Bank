@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/main.css" />
@@ -34,7 +35,7 @@
                 <li><a href="#">Insights</a></li>
               </ul>
             </nav>
-            <div>
+            <div class="display-none btn--create--account">
               <a class="display-none btn-create-account" href="#"
                 >Create Account</a
               >
@@ -95,7 +96,7 @@
       </section>
     </div>
     <!-- Section 2 -->
-    <div class="wrapper-white pad-bot-large">
+    <div class="wrapper-white pad--top-bot-large">
       <section id="section-2">
         <div class="container">
           <div class="row">
@@ -115,8 +116,8 @@
                 <div class="d-flex flex-center">
                   <img src="./assets/img/Section-2/card-image-1.svg" alt="" />
                 </div>
-                <h2>Secured</h2>
-                <p>
+                <h4 class="pad--bottom pad-left-card">Secured</h4>
+                <p class="pad-left-card pad-bot-card">
                   The sky was cloudless and of a deep dark blue spectacle
                   before.
                 </p>
@@ -127,20 +128,22 @@
                 <div class="d-flex flex-center">
                   <img src="./assets/img/Section-2/card-image-2.svg" alt="" />
                 </div>
-                <h2>Faster</h2>
-                <p>
+                <h4 class="pad--bottom pad-left-card">Faster</h4>
+                <p class="pad-left-card pad-bot-card">
                   Cloudless and of a deep dark blue spectacle before us was
                   indeed.
                 </p>
               </div>
             </div>
             <div class="column column-xl-4">
-              <div class="section-2__card">
+              <div class="section-2__card mg-bot-extra-large">
                 <div class="d-flex flex-center">
                   <img src="./assets/img/Section-2/card-image-3.svg" alt="" />
                 </div>
-                <h2>Global</h2>
-                <p>Deep dark blue spectacle before us was indeed sublime.</p>
+                <h4 class="pad--bottom pad-left-card">Global</h4>
+                <p class="pad-left-card pad-bot-card">
+                  Deep dark blue spectacle before us was indeed sublime.
+                </p>
               </div>
             </div>
           </div>
@@ -151,7 +154,7 @@
                   <h5 class="h5__blue-color h5--modifier">Services</h5>
                 </div>
                 <h2 class="pad--bottom">Explore Services</h2>
-                <p class="pad--bottom">
+                <p class="pad--bottom pad-left-right-card">
                   Financial institution licensed to receive deposits and make
                   loans.
                 </p>
@@ -179,15 +182,17 @@
                 />
               </div>
               <div class="column column-xl-6">
-                <h3 class="pad--bottom">
-                  Personal Loans Are Used for a Variety of Reasons
-                </h3>
-                <p class="pad--bottom">
-                  The sky was cloudless and of a deep dark blue spectacle before
-                  us was indeed sublime.
-                </p>
-                <div class="pad-bot-large">
-                  <a class="btn__blue" href="#">Get Loan</a>
+                <div class="section-2--get-loan">
+                  <h3 class="pad--bottom">
+                    Personal Loans Are Used for a Variety of Reasons
+                  </h3>
+                  <p class="pad--bottom">
+                    The sky was cloudless and of a deep dark blue spectacle
+                    before us was indeed sublime.
+                  </p>
+                  <div class="pad-bot-card-large">
+                    <a class="btn__blue" href="#">Get Loan</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -201,14 +206,16 @@
         <div class="container">
           <div class="row">
             <div class="column column-xl-4">
-              <h5 class="h5__orange-color h5--modifier mb--bottom">
-                Credit Card
-              </h5>
-              <h2 class="mb--bottom color__text--white">Credit Card</h2>
-              <p class="color__text--d-white">
-                Banks may also provide financial services such as wealth
-                management, currency exchange.
-              </p>
+              <div class="section-2-credit-card">
+                <h5 class="h5__orange-color h5--modifier mb--bottom">
+                  Credit Card
+                </h5>
+                <h2 class="mb--bottom color__text--white">Credit Card</h2>
+                <p class="color__text--d-white">
+                  Banks may also provide financial services such as wealth
+                  management, currency exchange.
+                </p>
+              </div>
             </div>
             <div class="column column-xl-4">
               <img
@@ -231,7 +238,7 @@
       </section>
     </div>
     <!-- section 4 -->
-    <div class="wrapper-white">
+    <div class="wrapper-white pad-top">
       <section id="section-4">
         <div class="bg--color-grey">
           <div class="container">
@@ -240,11 +247,11 @@
                 <div class="section-4--about">
                   <h5 class="h5__blue-color h5--modifier mb--bottom">About</h5>
                   <h2 class="mb--bottom">We Help With Any Problem</h2>
-                  <p class="mb--bottom">
+                  <p>
                     There are several different kinds of banks including retail
                     banks, commercial or corporate banks.
                   </p>
-                  <div class="d-flex gap--81">
+                  <div class="d-flex gap--81 pad-top">
                     <ul>
                       <li
                         class="
@@ -315,12 +322,12 @@
           <div class="container">
             <div class="row">
               <div class="column column-xl-4">
-                <h4 class="mg-top-large pad-left-right pad-bot-10">
+                <h4 class="mg-top-large pad-bot-10 h4-text-align">
                   A bank is a financial institution licensed to receive deposits
                   and make loans.
                 </h4>
               </div>
-              <div class="column column-xl-4">
+              <div class="column column-md-6 column-xl-4">
                 <div class="d-flex flex-align pad-left-32 bg--card-color">
                   <div class="mg-right-small">
                     <img
@@ -334,8 +341,16 @@
                   </div>
                 </div>
               </div>
-              <div class="column column-xl-4">
-                <div class="d-flex flex-align pad-left-32 bg--card-color">
+              <div class="column column-md-6 column-xl-4">
+                <div
+                  class="
+                    d-flex
+                    flex-align
+                    pad-left-32
+                    bg--card-color
+                    mg-bot-extra-large
+                  "
+                >
                   <div class="mg-right-small">
                     <img
                       src="./assets/img/Section-4/Section-4-Transfer-icon.svg"
@@ -365,13 +380,13 @@
                     </h5>
                   </div>
                   <h2 class="mb--bottom text-align">Frequently Asked</h2>
-                  <p class="mb--bottom text-align">
+                  <p class="mb--bottom-60 text-align">
                     Cloudless and of a deep dark blue spectacle before us was.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="bg--color-pink pad-bot-large">
+            <div class="bg--color-pink pad-bot-large mg-bot-extra-large">
               <div class="row">
                 <div class="column">
                   <div class="card--bg--color-white">
@@ -391,41 +406,44 @@
                       banks, and investment banks.
                     </p>
                   </div>
-                </div>
-              </div>
-              <div class="column">
-                <div class="d-flex flex-align faq--border-bottom">
-                  <h4 class="pad-bot-large">
-                    How many types of bank are there?
-                  </h4>
-                  <img
-                    class="pad-bot-large"
-                    src="./assets/img/Section-4/arrow-icon-down.svg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="column">
-                <div class="d-flex flex-align faq--border-bottom">
-                  <h4 class="pad-bot-large">
-                    What are the two meanings of bank?
-                  </h4>
-                  <img
-                    class="pad-bot-large"
-                    class="ml--auto"
-                    src="./assets/img/Section-4/arrow-icon-down.svg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="column">
-                <div class="d-flex d-flex flex-align">
-                  <h4>How do banks work?</h4>
-                  <img
-                    class="ml--auto"
-                    src="./assets/img/Section-4/arrow-icon-down.svg"
-                    alt=""
-                  />
+                  <div
+                    class="d-flex flex-between faq--border-bottom margin--auto"
+                  >
+                    <h4 class="pad-bot-large">
+                      How many types of bank are there?
+                    </h4>
+                    <img
+                      class="pad-bot-large"
+                      src="./assets/img/Section-4/arrow-icon-down.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="d-flex flex-between faq--border-bottom margin--auto"
+                  >
+                    <h4 class="pad-bot-large">
+                      What are the two meanings of bank?
+                    </h4>
+                    <img
+                      class="pad-bot-large"
+                      src="./assets/img/Section-4/arrow-icon-down.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-between
+                      faq--border-bottom-no-border
+                      margin--auto
+                    "
+                  >
+                    <h4>How do banks work?</h4>
+                    <img
+                      src="./assets/img/Section-4/arrow-icon-down.svg"
+                      alt=""
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -514,8 +532,7 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="row">
+
               <div class="column column-md-6 column-xl-4">
                 <div class="testimonials-bg--card-color">
                   <img
@@ -598,54 +615,87 @@
             <div class="container">
               <div class="row">
                 <div class="column">
-                  <div class="pad--bot-small">
-                    <h5 class="h5__blue-color h5--modifier">Insights</h5>
+                  <div class="section-8-insights">
+                    <div class="pad--bot-small">
+                      <h5 class="h5__blue-color h5--modifier">Insights</h5>
+                    </div>
+                    <h2 class="pad--bot-small">Latest Insights</h2>
+                    <p class="pad--bot-small">
+                      Banking is defined as the business activity of accepting.
+                    </p>
+                    <a class="btn__transparent" href="#">All Insights</a>
                   </div>
-                  <h2 class="pad--bot-small">Latest Insights</h2>
-                  <p class="pad--bot-small">
-                    Banking is defined as the business activity of accepting.
-                  </p>
-                  <a class="btn__transparent" href="#">All Insights</a>
                 </div>
               </div>
               <div class="row">
                 <div class="column column-md-6 column-xl-3">
-                  <div class="bg-black-card margin--auto"></div>
-                  <h4 class="bg-white-card margin--auto">
+                  <div class="bg-black-card margin--auto">
+                    <img
+                      class="card--img"
+                      src="./assets/img/images/happy-woman-spending-money-during-her-summer-vacat-44ZARZY (1).jpg"
+                      alt=""
+                    />
+                  </div>
+                  <h6 class="bg-white-card margin--auto">
                     What is the greatest form of wealth
-                  </h4>
+                  </h6>
                 </div>
                 <div class="column column-md-6 column-xl-3">
-                  <div class="bg-black-card margin--auto"></div>
-                  <h4 class="bg-white-card margin--auto">
+                  <div class="bg-black-card margin--auto">
+                    <img
+                      class="card--img"
+                      src="./assets/img/images/happy-woman-spending-money-during-her-summer-vacat-44ZARZY (1).jpg"
+                      alt=""
+                    />
+                  </div>
+                  <h6 class="bg-white-card margin--auto">
                     How does one stop earning a living creating wealth
-                  </h4>
+                  </h6>
                 </div>
                 <div class="column column-md-6 column-xl-3">
-                  <div class="bg-black-card margin--auto"></div>
-                  <h4 class="bg-white-card margin--auto">
+                  <div class="bg-black-card margin--auto">
+                    <img
+                      class="card--img"
+                      src="./assets/img/images/happy-woman-spending-money-during-her-summer-vacat-44ZARZY (1).jpg"
+                      alt=""
+                    />
+                  </div>
+                  <h6 class="bg-white-card margin--auto">
                     Is it too late to start investing in 2020?
-                  </h4>
+                  </h6>
                 </div>
                 <div class="column column-md-6 column-xl-3">
-                  <div class="bg-black-card margin--auto"></div>
-                  <h4 class="bg-white-card margin--auto">
+                  <div class="bg-black-card margin--auto">
+                    <img
+                      class="card--img"
+                      src="./assets/img/images/happy-woman-spending-money-during-her-summer-vacat-44ZARZY (1).jpg"
+                      alt=""
+                    />
+                  </div>
+                  <h6 class="bg-white-card margin--auto">
                     Mistakes people make when trying to become wealthy
-                  </h4>
+                  </h6>
                 </div>
               </div>
               <div class="row">
-                <div class="column">
-                  <h3 class="pad-bot-10">Subscribe Now</h3>
-                  <p class="pad-medium-bottom">
-                    Was cloudless and of a deep dark blue spectacle before.
-                  </p>
-                  <div class="mb--bottom">
+                <div class="column column-xl-6">
+                  <div class="btn--subscription">
+                    <h3 class="pad-bot-10">Subscribe Now</h3>
+                    <p class="pad-medium-bottom">
+                      Was cloudless and of a deep dark blue spectacle before.
+                    </p>
+                  </div>
+                </div>
+                <div class="column column-xl-6">
+                  <div class="btn-input">
                     <input type="email" name="email" placeholder="Your Email" />
                     <label for="email"></label>
-                  </div>
-                  <div>
-                    <a class="btn__subscribed text-align" href="#">Subscribe</a>
+
+                    <div>
+                      <a class="btn__subscribed text-align" href="#"
+                        >Subscribe</a
+                      >
+                    </div>
                   </div>
                 </div>
               </div>
@@ -660,15 +710,21 @@
         <div class="container">
           <div class="row">
             <div class="column column-xl-6">
-              <h5 class="h5__orange-color h5--modifier mg-top-large mb--bottom">
-                Mobile App
-              </h5>
-              <h2 class="mb--bottom color__text--white">Download Mobile App</h2>
-              <p class="mb--bottom color__text--d-white">
-                The sky was cloudless and of a deep dark blue spectacle before
-                us was indeed sublime.
-              </p>
-              <a class="btn__orange mb--bottom" href="#">Download</a>
+              <div class="section-9-mobile-app">
+                <h5
+                  class="h5__orange-color h5--modifier mg-top-large mb--bottom"
+                >
+                  Mobile App
+                </h5>
+                <h2 class="mb--bottom color__text--white">
+                  Download Mobile App
+                </h2>
+                <p class="mb--bottom color__text--d-white">
+                  The sky was cloudless and of a deep dark blue spectacle before
+                  us was indeed sublime.
+                </p>
+                <a class="btn__orange mb--bottom" href="#">Download</a>
+              </div>
             </div>
             <div class="column column-xl-6">
               <img
@@ -726,14 +782,9 @@
           <div class="column">
             <div class="footer-closing">
               <div
-                class="
-                  footer-closing
-                  color__text--d-white
-                  mg-top-medium
-                  text-align
-                "
+                class="color__text--d-white mg-top-medium text-align mb--bottom"
               >
-                <h6>Copyright © 2020 Laaqiq. All Rights Reserved.</h6>
+                <h5>Copyright © 2020 Laaqiq. All Rights Reserved.</h5>
               </div>
               <div
                 class="
@@ -741,11 +792,12 @@
                   flex-evenly
                   color__text--white
                   margin-top
-                  footer-closing
+                  footer-terms-policy
+                  mb--bottom
                 "
               >
-                <h5 class="text-modifier">Terms of Use</h5>
-                <h5 class="text-modifier h5__margin__left">Privacy Policy</h5>
+                <h5 class="text-modifier mg-right">Terms of Use</h5>
+                <h5 class="text-modifier">Privacy Policy</h5>
               </div>
             </div>
           </div>
