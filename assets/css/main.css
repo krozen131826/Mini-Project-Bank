@@ -797,8 +797,24 @@ p {
   background-color: #fff;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.04);
   border-radius: 24px;
-  border: 1px solid black;
-  display: inline-block;
+  margin: 0 -38px;
+  margin-bottom: -18px;
+  padding: 17px 0;
+}
+
+.ul-style li {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.ul-style li:nth-child(2) {
+  border-left: 1px solid #f5f6fb;
+  border-right: 1px solid #f5f6fb;
+  padding: 0 20px;
+}
+
+.ul-style li:not(:nth-child(2)) {
+  padding: 0 20px;
 }
 
 .h5__orange-color {
@@ -972,6 +988,11 @@ input {
     display: flex;
     align-items: center;
   }
+  #hero .hero-column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+  }
   .bg--card-color {
     background-color: #fff;
     box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.04);
@@ -979,6 +1000,12 @@ input {
     width: 270px;
     height: 144px;
     margin-top: 76px;
+  }
+  #section-3 .section-3-credit-card {
+    margin-top: 75px;
+  }
+  #section-4 .section-4--about {
+    margin-top: 75px;
   }
   #footer .footer-logo {
     margin-top: 0px;
@@ -1116,7 +1143,7 @@ input {
   justify-content: space-evenly;
 }
 
-.flex-direction {
+.flex-column {
   flex-direction: column;
 }
 
@@ -1138,10 +1165,6 @@ input {
 .social--icon {
   padding-bottom: 64px;
   border-bottom: 1px solid #f5f6fb;
-}
-
-.spacing_utility {
-  max-width: 675px;
 }
 
 .h5--text-modifier {
@@ -1184,6 +1207,10 @@ input {
   margin-left: auto;
 }
 
+.mg-left {
+  margin-left: 20px;
+}
+
 .margin--auto {
   margin: 0 auto;
 }
@@ -1194,6 +1221,10 @@ input {
 
 .mg-top-medium {
   margin-top: 40px;
+}
+
+.margin-left-large {
+  margin-left: 280px;
 }
 
 .mg-top-large {
@@ -1212,8 +1243,8 @@ input {
   margin-bottom: 50px;
 }
 
-.mg-left {
-  margin-left: 20px;
+.mb--bottom-60 {
+  margin-bottom: 60px;
 }
 
 .mg-right {
@@ -1222,6 +1253,10 @@ input {
 
 .mg-right-small {
   margin-right: 10px;
+}
+
+.mg-right-auto {
+  margin-right: auto;
 }
 
 .margin-top {
@@ -1260,6 +1295,10 @@ input {
   padding-bottom: 32px;
 }
 
+.pad-bot-large {
+  padding-bottom: 45px;
+}
+
 .pad--bot-small {
   padding-bottom: 15px;
 }
@@ -1270,6 +1309,10 @@ input {
 
 .gap--81 {
   gap: 81px;
+}
+
+.faq--border-bottom {
+  border-bottom: 1px solid #f3e5d4;
 }
 
 .gap-10 {
