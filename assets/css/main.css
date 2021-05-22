@@ -788,8 +788,8 @@ h6 {
 }
 
 p {
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 32px;
   font-weight: 300;
 }
 
@@ -945,6 +945,7 @@ input {
   background: #fff;
   box-shadow: 0px 24px 72px rgba(0, 0, 0, 0.04);
   border-radius: 24px;
+  padding-bottom: 34px;
 }
 
 /*=============
@@ -1076,7 +1077,6 @@ input {
 .img__utility {
   width: 100%;
   height: auto;
-  display: block;
 }
 
 .image__card {
@@ -1169,6 +1169,10 @@ input {
   margin-bottom: 20px;
 }
 
+.mg-bot-medium {
+  margin-bottom: 34px;
+}
+
 .mb--bottom-medium {
   margin-bottom: 50px;
 }
@@ -1209,8 +1213,8 @@ input {
   padding-left: 20px;
 }
 
-.pad-left-card {
-  padding-left: 23px;
+.pad-left-right-card {
+  padding: 0 23px;
 }
 
 .pad-bot-card {
@@ -1223,6 +1227,14 @@ input {
 
 .pad-left-32 {
   padding-left: 32px;
+}
+
+.pad-left-103 {
+  padding-left: 103px;
+}
+
+.pad-right-103 {
+  padding-right: 103px;
 }
 
 .pad-right {
@@ -1303,7 +1315,7 @@ input {
     margin-bottom: 20px;
     padding-bottom: 15px;
   }
-  #section-3 .section-2-credit-card {
+  #section-3 .section-3-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1428,6 +1440,20 @@ input {
     display: flex;
     flex-direction: column;
     margin-top: 45px;
+    margin-left: 103px;
+  }
+  #hero h1 {
+    margin-bottom: 27px;
+  }
+  #hero .btn__explore-services {
+    margin-top: 36px;
+  }
+  #hero .img__ovals {
+    margin: 96px 0;
+  }
+  #hero .hero__main-img {
+    margin-top: 90px;
+    margin-left: 50px;
   }
   .bg--card-color {
     background-color: #fff;
@@ -1447,15 +1473,46 @@ input {
     max-width: 370px;
   }
   #section-2 .section-2--get-loan {
-    padding-top: 120px;
+    margin-top: 225px;
     max-width: 370px;
-    padding-left: 50px;
+    margin-left: 130px;
+  }
+  #section-2 .section-2-features {
+    margin-left: 103px;
+  }
+  #section-2 .section-2__card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+  }
+  #section-2 .section-2-main-img {
+    margin-top: 90px;
+    padding-left: 103px;
   }
   #section-3 .section-3-credit-card {
     margin-top: 75px;
   }
+  #section-3 .section-3-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 30px;
+    margin-right: 50px;
+  }
   #section-4 .section-4--about {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
     margin-top: 75px;
+  }
+  #section-4 .section-4__main-img {
+    margin-top: 100px;
+    margin-left: 100px;
   }
   #section-7 .testimonials-bg--card-color {
     background-color: #fff;
@@ -1506,6 +1563,10 @@ input {
     flex-direction: column;
     text-align: left;
     padding-top: 50px;
+    padding: 0 100px;
+  }
+  #section-9 .mobile-app-p {
+    padding-right: 100px;
   }
   #footer .footer-logo {
     margin-top: 0px;
